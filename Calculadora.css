@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding 0;
+    font-family: monospace;
+}
+
+/*SECCION DEL FORMULARIO*/
+
+.calculadora{
+    border: 3px solid #e0e5f8;
+    border-radius: 3px;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.calcuradora h1{
+    color: #3f52b3;
+    text-align: center;
+    margin-top: 50px;
+}
+#num1,#num2{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cj-btn input{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: #3f52b3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cj-btn input:hover{
+    background-color: #0f1b8a;
+}
+
+.cj-resultado{
+    background-color: #e0e5f8;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    height: 100px;
+    border-radius: 3px;
+}
